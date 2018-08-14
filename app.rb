@@ -27,7 +27,7 @@ end
 get "goodbye/:name" do 
   
   @user_name = params[:name]
-  "Goobye #{@user_name}!"
+  "Goobye #{@user}!"
 end
 
 
