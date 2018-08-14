@@ -29,7 +29,5 @@ get "goodbye/:name" do
   @user = params[:name]
   "Goobye #{@user}!"
 end
-
-
 end
 
